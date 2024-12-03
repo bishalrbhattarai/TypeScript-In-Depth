@@ -19,12 +19,27 @@
 // let test = [];
 // let objs: object[] = [{}];
 
-const obj: { name: string; age: number } = {
-  name: "John Doe",
-  age: 20,
-};
+// const obj: { name: string; age: number } = {
+//   name: "John Doe",
+//   age: 20,
+// };
 
-obj["age"] = 21;
+// obj["age"] = 21;
+
+// let slash: Guitarist = {
+//   name: "Slash",
+//   active: false,
+//   albums: ["guns n roses", "sweet child o'mine", 1880],
+// };
+
+// let jimmy: Guitarist = {
+//   name: "Jimmy",
+//   albums: ["I", "II", "III"],
+// };
+
+// jimmy = slash;
+
+// working with functions
 
 type Guitarist = {
   name: string;
@@ -32,15 +47,4 @@ type Guitarist = {
   albums: (string | number)[];
 };
 
-let slash: Guitarist = {
-  name: "Slash",
-  active: false,
-  albums: ["guns n roses", "sweet child o'mine", 1880],
-};
-
-let jimmy: Guitarist = {
-  name: "Jimmy",
-  albums: ["I", "II", "III"],
-};
-
-jimmy = slash;
+const greetGuitarists = (guitarist: Guitarist) => {};
