@@ -22,3 +22,8 @@ let slash = {
     active: false,
     albums: ["guns n roses", "sweet child o'mine", 1880],
 };
+let jimmy = {
+    name: "Jimmy",
+    albums: ["I", "II", "III"],
+};
+jimmy = slash;

@@ -28,12 +28,19 @@ obj["age"] = 21;
 
 type Guitarist = {
   name: string;
-  active: boolean;
+  active?: boolean;
   albums: (string | number)[];
 };
 
-let slash = {
+let slash: Guitarist = {
   name: "Slash",
   active: false,
   albums: ["guns n roses", "sweet child o'mine", 1880],
 };
+
+let jimmy: Guitarist = {
+  name: "Jimmy",
+  albums: ["I", "II", "III"],
+};
+
+jimmy = slash;
