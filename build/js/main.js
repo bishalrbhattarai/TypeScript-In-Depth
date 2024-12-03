@@ -55,9 +55,28 @@
 //   albums: (string | number)[];
 // };
 // functions :
-const add = (a, b) => {
-    return a + b;
-};
-const logMessage = (message) => {
-    return message;
-};
+// const add = (a: number, b: number): number => {
+//   return a + b;
+// };
+// const logMessage = <T>(message: T): T => {
+//   return message;
+// };
+// type MathType = (a: number, b: number) => number;
+// const myMath: MathType = (a: number, b: number) => {
+//   return a * b;
+// };
+// const addAll = (...numbers: number[]) => {
+//   return numbers.reduce((next, acc) => {
+//     return next + acc;
+//   }, 0);
+// };
+// const sum = (a: number, b: number, c?: number) => {
+//   return a + b + (c ?? 0);
+// };
+// console.log(addAll(1, 2, 3, 4, 5));
+// type One = string;
+// type Two = number;
+// type three = string | number;
+// type Four = "hello";
+// let myVar: One = "Random_Text";
+// let myVar2: One = "hello" as Four;
