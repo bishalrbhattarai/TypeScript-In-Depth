@@ -15,3 +15,6 @@
 let stringArr = ["one", "two", "three", "four"];
 
 let guitars = ["start", "les paaul", 5150];
+
+let test = [];
+let objs: object[] = [{}];
