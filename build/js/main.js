@@ -8,7 +8,17 @@
 //   return +a + b;
 // };
 // console.log(sum(2, 4));
-let stringArr = ["one", "two", "three", "four"];
-let guitars = ["start", "les paaul", 5150];
-let test = [];
-let objs = [{}];
+// let stringArr = ["one", "two", "three", "four"];
+// let guitars = ["start", "les paaul", 5150];
+// let test = [];
+// let objs: object[] = [{}];
+const obj = {
+    name: "John Doe",
+    age: 20,
+};
+obj["age"] = 21;
+let slash = {
+    name: "Slash",
+    active: false,
+    albums: ["guns n roses", "sweet child o'mine", 1880],
+};
