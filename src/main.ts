@@ -66,8 +66,18 @@
 // }
 // console.log(Grade.U);
 
-type Guitarist = {
-  name: string;
-  active: boolean;
-  albums: (string | number)[];
+// type Guitarist = {
+//   name: string;
+//   active: boolean;
+//   albums: (string | number)[];
+// };
+
+// functions :
+
+const add = (a: number, b: number): number => {
+  return a + b;
+};
+
+const logMessage = <T>(message: T): T => {
+  return message;
 };
